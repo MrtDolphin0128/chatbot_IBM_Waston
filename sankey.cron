@@ -1,0 +1,8 @@
+SHELL=/bin/bash
+15 1 * * *   source env/bin/activate && python main.py  l
+
+15 13-18 * * *   source env/bin/activate && python main.py  s
+
+15 5 * * *   source env/bin/activate && python main-dev.py  l
+
+15 19-23 * * *   source env/bin/activate && python main-dev.py  s
